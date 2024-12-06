@@ -1,9 +1,10 @@
 window.addEventListener("load", () => {
   if (
-    window.location.pathname === "/" ||
-    window.location.pathname === "/index.html" ||
-    window.location.pathname === "/temp/" ||
-    window.location.pathname === "/temp/index.html"
+    window.location.pathname === "/"
+    // ||
+    // window.location.pathname === "/index.html" ||
+    // window.location.pathname === "/temp/" ||
+    // window.location.pathname === "/temp/index.html"
   ) {
     document.body.style.overflow = "hidden";
     const heroSection = document.querySelector(".hero-section");
